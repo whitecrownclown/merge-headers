@@ -1,6 +1,6 @@
 {
   "name": "merge-headers",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Easily merge HTTP headers",
   "main": "index.js",
   "scripts": {
