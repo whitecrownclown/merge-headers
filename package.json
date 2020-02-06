@@ -30,5 +30,9 @@
   "devDependencies": {
     "ava": "^3.2.0",
     "fetch-headers": "^2.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
