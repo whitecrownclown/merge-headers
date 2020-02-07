@@ -51,4 +51,4 @@ This is mostly for convenience. It is much easier to do `mergeHeaders()` instead
 
 - [x] Tests
 - [x] Usage
-- [] Advanced use cases
+- [ ] Advanced use cases
