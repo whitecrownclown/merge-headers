@@ -1,5 +1,5 @@
 function isObject(value) {
-    return value !== null && typeof value === 'object'
+    return value !== null && typeof value === 'object';
 }
 
 function merge(...sources) {

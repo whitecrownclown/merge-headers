@@ -81,3 +81,22 @@ test('Headers instance, plain object, arrays', t => {
     t.true('unicorn' in result);
     t.true('foo' in result);
 });
+
+test('Error is thrown if sources does not contain only objects', t => {
+	const original = {
+        rainbow: 'rainbow',
+        unicorn: 'unicorn'
+    }
+
+	const extended = {
+        rainbow: undefined
+    };
+
+	t.throws(() => {
+		const result = mergeHeaders(
+            original, extended, 3
+        );
+	}, {
+		message: 'The arguments must be of type object'
+	});
+});
