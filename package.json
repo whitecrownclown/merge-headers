@@ -14,7 +14,10 @@
     "headers",
     "request",
     "http",
-    "merge"
+    "merge",
+    "remove",
+    "delete",
+    "header"
   ],
   "ava": {
     "require": [
