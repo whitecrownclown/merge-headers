@@ -1,8 +1,6 @@
 # merge-headers
 > Easily merge HTTP headers
 
-## How
-
 `merge-headers` is a utility function that merges all your headers (plain objects, Headers instances or in Arrays format) and gives you the possibility to remove specific headers without too much headache.
 
 ## Usage
