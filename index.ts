@@ -1,8 +1,8 @@
-function isObject (value) {
+function isObject (value: any) {
   return value !== null && typeof value === 'object'
 }
 
-function merge (...sources) {
+function merge (...sources: HeadersInit[]) {
   const result = {}
 
   for (const source of sources) {
@@ -10,7 +10,7 @@ function merge (...sources) {
       throw new TypeError('All arguments must be of type object')
     }
 
-    const headers = source.constructor === Headers ? source : new Headers(source)
+    const headers: Headers = new Headers(source)
 
     for (const [key, value] of headers.entries()) {
       if ((value === undefined || value === 'undefined')) {
