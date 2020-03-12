@@ -1,3 +1,3 @@
 const Headers = require('fetch-headers')
 
-global.Headers = Headers;
+global.Headers = Headers
