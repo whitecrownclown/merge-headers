@@ -36,19 +36,19 @@
   },
   "homepage": "https://github.com/whitecrownclown/merge-headers#readme",
   "devDependencies": {
-    "ava": "^3.2.0",
-    "eslint": "^6.8.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
+    "@types/node": "^16.10.1",
+    "ava": "^3.15.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^4.1.0",
     "fetch-headers": "^2.0.0",
-    "standard": "^14.3.1",
-    "typescript": "^3.8.3"
+    "standard": "^16.0.3",
+    "typescript": "^4.4.3"
   },
   "directories": {
     "test": "test"
-  },
-  "dependencies": {}
+  }
 }
